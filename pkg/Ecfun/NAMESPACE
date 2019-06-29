@@ -2,7 +2,8 @@
 
 ## Quick and dirty: {just to confirm that it is sufficient}
 
-export(Arrows, as.Date1970, asNumericChar, asNumericDF, 
+export(.onAttach, 
+        Arrows, as.Date1970, asNumericChar, asNumericDF, 
        BoxCox, 
        confint.var, confint.sd, 
        canbeNumeric, camelParse, checkNames, classIndex, 
